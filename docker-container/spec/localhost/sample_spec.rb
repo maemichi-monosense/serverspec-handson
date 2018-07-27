@@ -20,4 +20,9 @@ describe 'container' do
   describe package('aws-cli') do
     it { should be_installed }
   end
+
+  describe command('aws --version') do
+    its(:stdout) { should eq '' }
+    its(:stderr) { should match /aws-cli\/1\.\d+/ }
+  end
 end
