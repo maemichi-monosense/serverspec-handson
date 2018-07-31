@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    net-scp (1.2.1)
+      net-ssh (>= 2.6.5)
+    net-ssh (5.0.2)
+    net-telnet (0.2.0)
+    sfl (2.3)
+    specinfra (2.75.0)
+      net-scp
+      net-ssh (>= 2.7)
+      net-telnet
+      sfl
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  specinfra (~> 2.75)
+
+BUNDLED WITH
+   1.16.1
