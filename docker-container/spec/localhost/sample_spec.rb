@@ -2,7 +2,7 @@ require 'spec_helper'
 
 set :backend, :docker
 
-set_property name: 'handmade'
+set_property name: 'amazon'
 
 describe 'container' do
   before(:all) do
